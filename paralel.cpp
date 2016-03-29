@@ -51,7 +51,7 @@ int main(int argc, char const *argv[])
 	}
 	t_fin1= clock();
 	secs1 = (double)(t_fin1 - t_ini1) / CLOCKS_PER_SEC;
-	printf("%.16g milisegundos\n", secs1 * 1000.0);
+	printf("%.16g milisegundos\n", secs1 * 1000.0); // fila a columna
 
 
 
@@ -66,7 +66,7 @@ int main(int argc, char const *argv[])
 	}
 	t_fin2 = clock();
 	secs2 = (double)(t_fin2 - t_ini2) / CLOCKS_PER_SEC;
-	printf("%.16g milisegundos\n", secs2 * 1000.0);
+	printf("%.16g milisegundos\n", secs2 * 1000.0); // columna a fila
 
 
 
